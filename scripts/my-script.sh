@@ -1,11 +1,11 @@
 #!/bin/bash
-#scripts/my-script.sh
+# scripts/my-script.sh
 
 echo "---Script Start---"
 
 if [ -z "$REQUIRED_VAR" ]; then
-echo "Error: "REQUIRED_VAR is not set. Exiting."
-exit 1
+  echo "Error: "REQUIRED_VAR is not set. Exiting."
+  exit 1
 else
-echo "REQUIRED_VAR is set. Value: $REQUIRED_VAR"
+  echo "REQUIRED_VAR is set. Value: $REQUIRED_VAR"
 fi
